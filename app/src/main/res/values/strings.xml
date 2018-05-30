@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MediControl</string>
+    <string name="drip_sense">Drip Sense</string>
 </resources>

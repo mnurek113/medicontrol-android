@@ -4,13 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="@dimen/above_fab_margin"
-    android:layout_marginBottom="@dimen/above_fab_margin"
+    android:layout_marginTop="80dp"
+    android:layout_marginBottom="80dp"
+    android:layout_marginStart="@dimen/triple_margin"
+    android:layout_marginEnd="@dimen/triple_margin"
     tools:context="com.code.knab.medicontrol.MainActivity">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        />
+        android:text="@string/drip_sense"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/triple_margin"
+        android:id="@+id/dripSenseButton"/>
 
 </android.support.constraint.ConstraintLayout>
