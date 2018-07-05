@@ -1,7 +1,8 @@
-package com.code.knab.medicontrol
+package com.code.knab.medicontrol.ui.main
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.code.knab.medicontrol.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

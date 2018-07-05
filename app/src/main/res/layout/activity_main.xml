@@ -8,7 +8,7 @@
     android:layout_marginBottom="80dp"
     android:layout_marginStart="@dimen/triple_margin"
     android:layout_marginEnd="@dimen/triple_margin"
-    tools:context="com.code.knab.medicontrol.MainActivity">
+    tools:context="com.code.knab.medicontrol.ui.main.MainActivity">
 
     <Button
         android:layout_width="wrap_content"
