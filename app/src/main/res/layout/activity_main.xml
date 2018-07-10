@@ -15,18 +15,98 @@
         android:layout_height="wrap_content"
         android:text="# M E D I C O N T R O L #"
         android:textSize="30dp"
-        
         app:layout_constraintTop_toTopOf="parent"
         android:id="@+id/titleTextView"/>
 
-    <Button
-        android:layout_width="wrap_content"
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/drip_sense"
-        app:layout_constraintTop_toBottomOf="@+id/titleTextView"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginStart="@dimen/triple_margin"
-        android:layout_marginTop="40dp"
-        android:id="@+id/dripSenseButton"/>
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical"
+            android:id="@+id/leftColumnLayout"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/drip_sense"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="@dimen/triple_margin"
+                android:layout_marginTop="20dp"
+                android:id="@+id/dripSenseButton"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button@@"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="@dimen/triple_margin"
+                android:layout_marginTop="20dp"
+                android:id="@+id/anotherButton"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button@@"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="@dimen/triple_margin"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button@@"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="@dimen/triple_margin"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginEnd="20dp"
+            android:id="@+id/rightColumnLayout"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NON SENSE"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="@dimen/triple_margin"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button@@"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="@dimen/triple_margin"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button@@"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="@dimen/triple_margin"
+                android:layout_marginTop="20dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button@@"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="@dimen/triple_margin"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
 
 </android.support.constraint.ConstraintLayout>
